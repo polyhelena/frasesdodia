@@ -8,6 +8,7 @@ h1 {
     background-image: url(img/fundo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
   }
 
   button {
