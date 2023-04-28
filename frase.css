@@ -5,9 +5,12 @@ h1 {
   body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    background-image: url(img/fundo.png);
+    background-image: url(img/fundo.png) no-repeat center center fixed;
+    /* ajusta a imagem para a largura e altura do viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
   }
 
   button {
